@@ -31,7 +31,33 @@
                                     <constraint firstAttribute="width" constant="260" id="JSt-rR-PgF"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                <buttonConfiguration key="configuration" style="plain" title="Stop!">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryb-Nu-IFD">
+                                <rect key="frame" x="66.666666666666671" y="631" width="115.00000000000001" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="G3p-zb-XSH"/>
+                                    <constraint firstAttribute="width" constant="115" id="dfc-5p-7Cd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Restart">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmB-iC-eZ9">
+                                <rect key="frame" x="211.66666666666663" y="631" width="115" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="26u-X7-RvP"/>
+                                    <constraint firstAttribute="height" constant="50" id="Ey9-LY-EaB"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Rules">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -42,7 +68,11 @@
                         <constraints>
                             <constraint firstItem="Mkq-46-wZ4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A4s-qG-Aog"/>
                             <constraint firstItem="GzI-Q2-9gl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="APV-20-SZl"/>
+                            <constraint firstItem="ryb-Nu-IFD" firstAttribute="leading" secondItem="GzI-Q2-9gl" secondAttribute="leading" id="giw-OI-o5c"/>
                             <constraint firstItem="Mkq-46-wZ4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="lWP-e7-f5C"/>
+                            <constraint firstItem="ryb-Nu-IFD" firstAttribute="top" secondItem="GzI-Q2-9gl" secondAttribute="bottom" constant="20" id="mZy-dz-sms"/>
+                            <constraint firstItem="nmB-iC-eZ9" firstAttribute="trailing" secondItem="GzI-Q2-9gl" secondAttribute="trailing" id="nGh-VU-Y8j"/>
+                            <constraint firstItem="nmB-iC-eZ9" firstAttribute="centerY" secondItem="ryb-Nu-IFD" secondAttribute="centerY" id="ohl-vF-9bO"/>
                             <constraint firstItem="GzI-Q2-9gl" firstAttribute="top" secondItem="Mkq-46-wZ4" secondAttribute="bottom" constant="60" id="yBN-2I-05R"/>
                         </constraints>
                     </view>
@@ -56,6 +86,12 @@
         <image name="10C" width="691" height="1056"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.53333333333333333" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.2196078431372549" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
